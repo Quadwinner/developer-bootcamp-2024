@@ -22,7 +22,10 @@ export async function GET(request: Request) {
         {
           href: 'http://localhost:3000/api/vote?candidate=smooth',
           label: 'Vote Smooth',
-        }
+        },
+        {
+          herf:'http://localhost:3000/api/vote? candidate=sam',
+          label: 'vote Sam',
       ],
     },
   };
